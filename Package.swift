@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "FluentUI",
-            type: .static,
+            type: .dynamic,
             targets: [
                 "FluentUI"
             ]

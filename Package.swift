@@ -12,23 +12,9 @@ let package = Package(
     products: [
         .library(
             name: "FluentUI",
-            type: .static,
+            type: .dynamic,
             targets: [
                 "FluentUI"
-            ]
-        ),
-        .library(
-            name: "FluentUI_iOS",
-            type: .static,
-            targets: [
-                "FluentUI_ios"
-            ]
-        ),
-        .library(
-            name: "FluentUI_macOS",
-            type: .static,
-            targets: [
-                "FluentUI_macos"
             ]
         )
     ],
